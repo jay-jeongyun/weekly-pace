@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Weekly Pace message v1",
+  "type": "object",
+  "required": ["v", "used", "resets_at", "ts"],
+  "additionalProperties": false,
+  "properties": {
+    "v": { "const": 1 },
+    "used": { "type": "number", "minimum": 0, "maximum": 100, "description": "Percent of the 7-day limit used (rate_limits.seven_day.used_percentage)" },
+    "resets_at": { "type": "integer", "description": "Unix epoch seconds when the 7-day window resets (rate_limits.seven_day.resets_at)" },
+    "ts": { "type": "integer", "description": "Unix epoch seconds when the message was created" }
+  }
+}
