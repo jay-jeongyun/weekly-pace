@@ -24,7 +24,7 @@ Then add this to `~/.claude/settings.json` (merge with what you have):
 }
 ```
 
-Windows: copy `statusline/weekly-pace.ps1` to `%USERPROFILE%\.claude\` and set the command to `powershell -NoProfile -File %USERPROFILE%\.claude\weekly-pace.ps1`.
+Windows: copy `statusline/weekly-pace.ps1` to `%USERPROFILE%\.claude\` and use `statusline/settings.windows.example.json` as the settings snippet (the command is `powershell -NoProfile -File %USERPROFILE%\.claude\weekly-pace.ps1`).
 
 Open Claude Code and send one message. The status line should show `week 41%` (your number). Before the first response it shows `week: n/a`.
 

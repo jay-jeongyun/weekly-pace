@@ -1,0 +1,6 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "powershell -NoProfile -File %USERPROFILE%\\.claude\\weekly-pace.ps1"
+  }
+}

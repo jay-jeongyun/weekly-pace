@@ -44,7 +44,8 @@ docs/privacy.md                  what to send and what never to send
 docs/delivery/                   ntfy (default), Tailscale, secret gist
 statusline/weekly-pace.sh        status line script for macOS and Linux
 statusline/weekly-pace.ps1       status line script for Windows
-statusline/settings.example.json Claude Code settings snippet
+statusline/settings.example.json Claude Code settings snippet (macOS, Linux)
+statusline/settings.windows.example.json  the same for Windows
 schema/pace.v1.json              the message format
 skills/weekly-pace-widget/       agent skill that builds the phone widget
 ```
